@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File Upload</title>
+</head>
+<body>
+    <form action="controller/uploadAction.php" method="POST" enctype="multipart/form-data">
+        <fieldset>
+            <legend>Uploading image</legend>
+            <label for="image">Upload an Image </label>
+	        <input type="file" name="image" id="image"><br>
+            <input class="submit" type="submit" name="submit" value="Submit">
+        </fieldset>
+    </form>
+</body>
+</html>
